@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
     while True:
         x = input("Enter command to say: ")
-        if x.lower == "bye":
+        if x.lower() == "bye":
             engine.say(x)
             engine.runAndWait()
             break
